@@ -36,6 +36,7 @@ header{
 
 .btn-header:hover{
     background-color: gray;
+    transition: 250ms;
 }
 
 main{
