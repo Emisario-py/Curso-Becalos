@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-info{
+    margin: 10px 0;
+}
+
+.card-info h1{
+    font-size: 35px;
+    font-style: italic;
+    color: gray;
+}
+
+.card-info p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.cards{
+    background-color: black;
+    color: white;
+    width: 25rem;
+    padding: 2rem 3rem;
+    margin: 2.5rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.cards button{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 100vw;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.cards button:hover{
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: crimson;
+}
+
+.card-image-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card-image-container img{
+    width: 20rem
+}
