@@ -1,0 +1,25 @@
+#unique-div, #unique-title{
+    color: red;
+}
+
+div h1{
+    color:cadetblue
+}
+
+div h1{
+color: greenyellow;}
+
+.my-title{
+    color: pink;
+}
+
+h1{
+    color: sienna;
+}
+
+/* h1{
+    color: darkslateblue !important;
+    font-style: italic !important;
+} */
+
+/* Usualmente !important no se usa */
